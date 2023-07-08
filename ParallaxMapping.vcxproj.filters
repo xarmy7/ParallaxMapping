@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\externals">
+      <UniqueIdentifier>{75f69507-da8a-47ab-8c1b-f243ac119d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\resources">
+      <UniqueIdentifier>{5b5bc257-88c5-4269-a2f9-56acc58e66a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\maths">
+      <UniqueIdentifier>{bb8666d4-48d8-40d3-a64e-be8af92a79f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\maths">
+      <UniqueIdentifier>{9cd69e03-cd84-4a18-ad3f-a3c3cff728d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\externals\glad.c">
+      <Filter>Fichiers sources\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\externals\stb_image.cpp">
+      <Filter>Fichiers sources\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\application.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resourceManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\mat4.cpp">
+      <Filter>Fichiers sources\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\maths.cpp">
+      <Filter>Fichiers sources\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\vec2.cpp">
+      <Filter>Fichiers sources\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\vec3.cpp">
+      <Filter>Fichiers sources\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\vec4.cpp">
+      <Filter>Fichiers sources\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\transform.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\externals\imgui.cpp">
+      <Filter>Fichiers sources\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\externals\imgui_demo.cpp">
+      <Filter>Fichiers sources\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\externals\imgui_draw.cpp">
+      <Filter>Fichiers sources\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\externals\imgui_impl_glfw.cpp">
+      <Filter>Fichiers sources\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\externals\imgui_impl_opengl3.cpp">
+      <Filter>Fichiers sources\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\externals\imgui_widgets.cpp">
+      <Filter>Fichiers sources\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\light.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\application.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resourceManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\maths\mat4.h">
+      <Filter>Fichiers d%27en-tête\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\maths\maths.h">
+      <Filter>Fichiers d%27en-tête\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\maths\vec2.h">
+      <Filter>Fichiers d%27en-tête\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\maths\vec3.h">
+      <Filter>Fichiers d%27en-tête\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\maths\vec4.h">
+      <Filter>Fichiers d%27en-tête\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\camera.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\transform.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\light.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\resources\parallaxMapping.vert">
+      <Filter>Fichiers sources\resources</Filter>
+    </None>
+    <None Include="src\resources\parallaxMapping.frag">
+      <Filter>Fichiers sources\resources</Filter>
+    </None>
+    <None Include="src\resources\interiorMapping.vert">
+      <Filter>Fichiers sources\resources</Filter>
+    </None>
+    <None Include="src\resources\interiorMapping.frag">
+      <Filter>Fichiers sources\resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
